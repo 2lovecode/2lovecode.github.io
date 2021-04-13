@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2lovecode</title>
-    <link>https://2lovecode.github.io/</link>
-    <description>Recent content on 2lovecode</description>
+    <title>Teches on 2lovecode</title>
+    <link>https://2lovecode.github.io/tech/</link>
+    <description>Recent content in Teches on 2lovecode</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Apr 2021 15:40:12 +0800</lastBuildDate><atom:link href="https://2lovecode.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Apr 2021 15:40:12 +0800</lastBuildDate><atom:link href="https://2lovecode.github.io/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Blog</title>
       <link>https://2lovecode.github.io/tech/my-blog/</link>
