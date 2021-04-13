@@ -1,0 +1,11 @@
+baseURL = "http://2lovecode.github.io/"
+languageCode = "en-us"
+title = "2lovecode"
+
+[params]
+    Subtitle = "看着前方，不要忘了路"
+    GithubID = "2lovecode"
+    TwitterID = ""
+    AnalyticsID = ""
+    Summary = true
+    Content = false
