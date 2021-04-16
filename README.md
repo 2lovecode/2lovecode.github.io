@@ -1,1 +1,1 @@
-hugo --theme=hugo-zen --destination="./"
+hugo --theme=PaperMod --destination="./"
