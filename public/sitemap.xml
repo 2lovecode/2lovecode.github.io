@@ -2,17 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-12-13T14:25:53+08:00</lastmod>
+    <loc>http://localhost:1313/tags/ai/</loc>
+    <lastmod>2025-06-25T09:38:08+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-12-13T14:25:53+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/first-post/</loc>
-    <lastmod>2024-12-13T14:25:53+08:00</lastmod>
+    <loc>http://localhost:1313/categories/ai/</loc>
+    <lastmod>2025-06-25T09:38:08+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-06-25T09:38:08+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/ai/application_exploration_of_llm_in_rental_vertical_search/</loc>
+    <lastmod>2025-06-25T09:38:08+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-06-25T09:38:08+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-06-25T09:38:08+08:00</lastmod>
   </url>
 </urlset>

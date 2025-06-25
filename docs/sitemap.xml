@@ -2,17 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://2lovecode.github.io/posts/</loc>
-    <lastmod>2024-12-13T14:25:53+08:00</lastmod>
+    <loc>https://2lovecode.github.io/tags/ai/</loc>
+    <lastmod>2025-06-25T09:38:08+08:00</lastmod>
   </url><url>
-    <loc>https://2lovecode.github.io/</loc>
-    <lastmod>2024-12-13T14:25:53+08:00</lastmod>
-  </url><url>
-    <loc>https://2lovecode.github.io/posts/first-post/</loc>
-    <lastmod>2024-12-13T14:25:53+08:00</lastmod>
+    <loc>https://2lovecode.github.io/categories/ai/</loc>
+    <lastmod>2025-06-25T09:38:08+08:00</lastmod>
   </url><url>
     <loc>https://2lovecode.github.io/categories/</loc>
+    <lastmod>2025-06-25T09:38:08+08:00</lastmod>
+  </url><url>
+    <loc>https://2lovecode.github.io/categories/ai/application_exploration_of_llm_in_rental_vertical_search/</loc>
+    <lastmod>2025-06-25T09:38:08+08:00</lastmod>
   </url><url>
     <loc>https://2lovecode.github.io/tags/</loc>
+    <lastmod>2025-06-25T09:38:08+08:00</lastmod>
+  </url><url>
+    <loc>https://2lovecode.github.io/</loc>
+    <lastmod>2025-06-25T09:38:08+08:00</lastmod>
   </url>
 </urlset>

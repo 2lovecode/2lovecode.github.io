@@ -1,0 +1,22 @@
+{{ define "main" }}
+    <article>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.description }}<p class="description">{{ . }}</p>{{ end }}
+    
+    {{ if .Date }}
+    <div class="meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+    </div>
+    {{ end }}
+    
+    <div class="content">
+        {{ .Content }}
+    </div>
+    
+    {{ if .Params.tags }}
+    <div class="tags">
+        Tags: {{ range .Params.tags }}<span>{{ . }}</span>{{ end }}
+    </div>
+    {{ end }}
+    </article>
+{{ end }}
