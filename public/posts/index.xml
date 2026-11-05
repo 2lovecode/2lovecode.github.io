@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on 字母狂想</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on 字母狂想</description>
+    <title>文章 on 字母狂想</title>
+    <link>http://localhost:60839/posts/</link>
+    <description>Recent content in 文章 on 字母狂想</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 13 Dec 2024 14:25:53 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Jul 2025 10:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:60839/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>第一个博客</title>
-      <link>http://localhost:1313/posts/first-post/</link>
-      <pubDate>Fri, 13 Dec 2024 14:25:53 +0800</pubDate>
-      <guid>http://localhost:1313/posts/first-post/</guid>
-      <description></description>
+      <title>转载示例：如何阅读技术文档</title>
+      <link>http://localhost:60839/posts/repost-example/</link>
+      <pubDate>Tue, 01 Jul 2025 10:00:00 +0800</pubDate>
+      <guid>http://localhost:60839/posts/repost-example/</guid>
+      <description>怎样更有效地阅读技术文档，建立自己的知识索引。</description>
+    </item>
+    <item>
+      <title>LLM在垂类搜索中的应用探索</title>
+      <link>http://localhost:60839/posts/llm-vertical-search/</link>
+      <pubDate>Wed, 25 Jun 2025 09:38:08 +0800</pubDate>
+      <guid>http://localhost:60839/posts/llm-vertical-search/</guid>
+      <description>从联想词、检索到推荐，梳理 LLM 进入垂类搜索链路时的切入点与边界。</description>
     </item>
   </channel>
 </rss>

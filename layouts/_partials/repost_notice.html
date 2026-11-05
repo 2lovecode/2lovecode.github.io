@@ -1,0 +1,23 @@
+{{- if eq (.Param "type_post") "repost" }}
+<aside class="repost-notice" aria-label="转载说明">
+  <span class="repost-label">转载</span>
+  {{- with .Param "original_title" }}
+  <span class="repost-sep">·</span>
+  <span class="repost-origin">
+    原文
+    {{- with $.Param "original_url" }}
+    <a href="{{ . }}" rel="noopener noreferrer" target="_blank">{{ $.Param "original_title" }}</a>
+    {{- else }}
+    {{ . }}
+    {{- end }}
+  </span>
+  {{- end }}
+  {{- with .Param "original_author" }}
+  <span class="repost-sep">·</span>
+  <span class="repost-author">作者 {{ . }}</span>
+  {{- end }}
+  {{- with .Param "repost_note" }}
+  <div class="repost-note">{{ . }}</div>
+  {{- end }}
+</aside>
+{{- end }}

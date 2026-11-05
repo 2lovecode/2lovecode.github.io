@@ -1,37 +1,82 @@
 baseURL = 'https://2lovecode.github.io/'
-languageCode = 'zh-CN'
 title = '字母狂想'
-theme = 'smigle'
+theme = 'PaperMod'
+defaultContentLanguage = 'zh-cn'
+
+enableRobotsTXT = true
+enableEmoji = true
+
+[languages.zh-cn]
+  label = '中文'
+  locale = 'zh-CN'
+  weight = 1
+  title = '字母狂想'
+
+[pagination]
+  pagerSize = 10
+
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  series = 'series'
+
+[params]
+  defaultTheme = 'auto'
+  DateFormat = '2006-01-02'
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = true
+  disableAnchoredHeadings = false
+  hideFooter = false
+  mainSections = ['posts']
+
+  [params.footer]
+    text = '[RSS](/index.xml)'
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 1
+    keys = ['title', 'permalink', 'summary', 'content']
+
 [[menu.main]]
-  identifier = "home"
-  name = "首页"
-  url = "/"
+  identifier = 'archives'
+  name = '归档'
+  url = '/archives/'
   weight = 1
 
 [[menu.main]]
-  identifier = "categories"
-  name = "分类"
-  url = "/categories/"
+  identifier = 'series'
+  name = '系列'
+  url = '/series/'
   weight = 2
 
 [[menu.main]]
-  identifier = "tags"
-  name = "标签"
-  url = "/tags/"
+  identifier = 'tags'
+  name = '标签'
+  url = '/tags/'
   weight = 3
 
 [[menu.main]]
-  identifier = "about"
-  name = "关于"
-  url = "/about/"
+  identifier = 'search'
+  name = '搜索'
+  url = '/search/'
   weight = 4
 
 [[menu.main]]
-  identifier = "rss"
-  name = "RSS"
-  url = "/index.xml"
+  identifier = 'about'
+  name = '关于'
+  url = '/about/'
   weight = 5
-
-[taxonomies]
-  category = "categories"
-  tag = "tags"

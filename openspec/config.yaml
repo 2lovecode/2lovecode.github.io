@@ -1,0 +1,23 @@
+schema: spec-driven
+
+context: |
+  Language: zh
+  All artifacts must be written in zh.
+  Keep OpenSpec structural headings and SHALL/MUST keywords in English.
+
+  Product: 字母狂想 — 个人技术博客（原创笔记与规范转载）
+  Stack: Hugo + PaperMod，部署于 GitHub Pages
+  Common paths: content/posts、layouts/、assets/css/extended/、hugo.toml、themes/PaperMod（submodule）
+  Agent rules: 根目录 AGENTS.md（OpenSpec × Superpowers）
+  Living specs: openspec/specs/blog-theme/ — 主题与 UI 强制规范；偏离须先 change
+
+# Per-artifact rules (optional)
+# rules:
+#   proposal:
+#     - Keep proposals under 500 words
+#     - Always include a "Non-goals" section
+
+# operations:
+#   apply:
+#     guidance:
+#       - Keep test summaries concise

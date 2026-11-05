@@ -1,0 +1,45 @@
+{{- define "main" }}
+
+<header class="page-header search-header">
+    <h1 class="search-title visually-hidden">{{- .Title -}}</h1>
+    <p class="search-lead">在站点内查找文章</p>
+</header>
+
+<div id="searchbox" class="searchbox">
+    <input id="searchInput" disabled placeholder="{{ .Params.placeholder | default "输入关键词，回车搜索…" }}"
+        aria-label="搜索" type="search" autocomplete="off" maxlength="64">
+    <ul id="searchResults" class="searchResults" aria-label="搜索结果"></ul>
+</div>
+
+<section class="search-assist" aria-label="浏览入口">
+    {{- with site.Taxonomies.tags }}
+    <div class="search-assist-block">
+        <h2>热门标签</h2>
+        <ul class="terms-tags">
+            {{- range first 8 .ByCount }}
+            <li>
+                <a href="{{ .Page.RelPermalink }}">
+                    <span class="term-name">{{ .Page.LinkTitle }}</span>
+                    <span class="term-count">{{ .Count }}</span>
+                </a>
+            </li>
+            {{- end }}
+        </ul>
+    </div>
+    {{- end }}
+
+    <div class="search-assist-block">
+        <h2>最近文章</h2>
+        <ul class="search-recent">
+            {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+            {{- range first 5 $pages }}
+            <li>
+                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format (default "2006-01-02" site.Params.DateFormat) }}</time>
+            </li>
+            {{- end }}
+        </ul>
+    </div>
+</section>
+
+{{- end }}

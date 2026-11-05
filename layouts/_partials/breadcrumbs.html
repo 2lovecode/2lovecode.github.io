@@ -1,0 +1,21 @@
+{{- if (.Param "ShowBreadCrumbs") -}}
+{{- $crumbs := slice -}}
+{{- range .Ancestors.Reverse -}}
+  {{- if not .IsHome -}}
+    {{- $crumbs = $crumbs | append . -}}
+  {{- end -}}
+{{- end -}}
+{{- if gt (len $crumbs) 0 }}
+<nav class="breadcrumbs" role="navigation" aria-label="面包屑">
+    {{- range $i, $bc := $crumbs }}
+        {{- if gt $i 0 }}
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right" aria-hidden="true">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+        {{- end }}
+        <a href="{{ $bc.RelPermalink }}">{{ $bc.Title }}</a>
+    {{- end }}
+</nav>
+{{- end -}}
+{{- end -}}

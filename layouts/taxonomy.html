@@ -1,0 +1,41 @@
+{{- define "main" }}
+
+{{- if .Title }}
+<header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{- if .Description }}
+    <div class="post-description">
+        {{ .Description }}
+    </div>
+    {{- end }}
+</header>
+{{- end }}
+
+{{- $max := 1 }}
+{{- range .Data.Terms }}
+  {{- if gt .Count $max }}{{ $max = .Count }}{{ end }}
+{{- end }}
+
+<ul class="terms-tags">
+    {{- $type := .Type }}
+    {{- range .Data.Terms.ByCount }}
+        {{- $name := .Name }}
+        {{- $count := .Count }}
+        {{- $weight := 1.0 }}
+        {{- if gt $max 1 }}
+          {{- $weight = add 0.85 (mul (div (float $count) (float $max)) 0.55) }}
+        {{- else }}
+          {{- $weight = 1.0 }}
+        {{- end }}
+        {{- with site.GetPage (printf "/%s/%s" $type $name) }}
+        <li>
+            <a href="{{ .Permalink }}" style="--tag-scale: {{ $weight }}">
+                <span class="term-name">{{ .LinkTitle }}</span>
+                <span class="term-count">{{ $count }}</span>
+            </a>
+        </li>
+        {{- end }}
+    {{- end }}
+</ul>
+
+{{- end }}

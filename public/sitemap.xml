@@ -2,22 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/ai/</loc>
+    <loc>http://localhost:60839/tags/</loc>
+    <lastmod>2025-07-01T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:60839/tags/%E7%A4%BA%E4%BE%8B/</loc>
+    <lastmod>2025-07-01T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:60839/posts/</loc>
+    <lastmod>2025-07-01T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:60839/series/</loc>
+    <lastmod>2025-07-01T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:60839/series/%E5%86%99%E4%BD%9C%E4%B8%8E%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2025-07-01T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:60839/posts/repost-example/</loc>
+    <lastmod>2025-07-01T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:60839/</loc>
+    <lastmod>2025-07-01T10:00:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:60839/categories/ai/</loc>
     <lastmod>2025-06-25T09:38:08+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/ai/</loc>
+    <loc>http://localhost:60839/tags/ai/</loc>
     <lastmod>2025-06-25T09:38:08+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:60839/tags/llm/</loc>
     <lastmod>2025-06-25T09:38:08+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/ai/application_exploration_of_llm_in_vertical_search/</loc>
+    <loc>http://localhost:60839/posts/llm-vertical-search/</loc>
     <lastmod>2025-06-25T09:38:08+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:60839/tags/%E5%9E%82%E7%B1%BB%E6%90%9C%E7%B4%A2/</loc>
     <lastmod>2025-06-25T09:38:08+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:60839/categories/</loc>
     <lastmod>2025-06-25T09:38:08+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:60839/about/</loc>
+  </url><url>
+    <loc>http://localhost:60839/archives/</loc>
+  </url><url>
+    <loc>http://localhost:60839/search/</loc>
   </url>
 </urlset>

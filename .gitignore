@@ -3,3 +3,7 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# Cursor / Agent: 本机生成，不进 git
+.cursor/
+.agents/
