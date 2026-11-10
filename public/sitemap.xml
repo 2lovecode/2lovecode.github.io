@@ -2,49 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:60839/tags/</loc>
-    <lastmod>2025-07-01T10:00:00+08:00</lastmod>
+    <loc>http://localhost:1313/posts/114w-mq-backlog-observability/</loc>
+    <lastmod>2026-11-10T11:41:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:60839/tags/%E7%A4%BA%E4%BE%8B/</loc>
-    <lastmod>2025-07-01T10:00:00+08:00</lastmod>
+    <loc>http://localhost:1313/tags/mq/</loc>
+    <lastmod>2026-11-10T11:41:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:60839/posts/</loc>
-    <lastmod>2025-07-01T10:00:00+08:00</lastmod>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-11-10T11:41:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:60839/series/</loc>
-    <lastmod>2025-07-01T10:00:00+08:00</lastmod>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2026-11-10T11:41:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:60839/series/%E5%86%99%E4%BD%9C%E4%B8%8E%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2025-07-01T10:00:00+08:00</lastmod>
+    <loc>http://localhost:1313/series/%E5%A4%8D%E7%9B%98/</loc>
+    <lastmod>2026-11-10T11:41:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:60839/posts/repost-example/</loc>
-    <lastmod>2025-07-01T10:00:00+08:00</lastmod>
+    <loc>http://localhost:1313/categories/%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/</loc>
+    <lastmod>2026-11-10T11:41:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:60839/</loc>
-    <lastmod>2025-07-01T10:00:00+08:00</lastmod>
+    <loc>http://localhost:1313/tags/%E6%95%85%E9%9A%9C%E5%A4%8D%E7%9B%98/</loc>
+    <lastmod>2026-11-10T11:41:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:60839/categories/ai/</loc>
-    <lastmod>2025-06-25T09:38:08+08:00</lastmod>
+    <loc>http://localhost:1313/tags/%E5%8F%AF%E8%A7%82%E6%B5%8B%E6%80%A7/</loc>
+    <lastmod>2026-11-10T11:41:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:60839/tags/ai/</loc>
-    <lastmod>2025-06-25T09:38:08+08:00</lastmod>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2026-11-10T11:41:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:60839/tags/llm/</loc>
-    <lastmod>2025-06-25T09:38:08+08:00</lastmod>
+    <loc>http://localhost:1313/series/</loc>
+    <lastmod>2026-11-10T11:41:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:60839/posts/llm-vertical-search/</loc>
-    <lastmod>2025-06-25T09:38:08+08:00</lastmod>
+    <loc>http://localhost:1313/tags/%E6%B6%88%E6%81%AF%E9%98%9F%E5%88%97/</loc>
+    <lastmod>2026-11-10T11:41:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:60839/tags/%E5%9E%82%E7%B1%BB%E6%90%9C%E7%B4%A2/</loc>
-    <lastmod>2025-06-25T09:38:08+08:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-11-10T11:41:00+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:60839/categories/</loc>
-    <lastmod>2025-06-25T09:38:08+08:00</lastmod>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>http://localhost:60839/about/</loc>
+    <loc>http://localhost:1313/archives/</loc>
   </url><url>
-    <loc>http://localhost:60839/archives/</loc>
-  </url><url>
-    <loc>http://localhost:60839/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>

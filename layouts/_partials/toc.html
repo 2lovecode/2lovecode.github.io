@@ -1,0 +1,24 @@
+{{- /* variant: mobile | side；page 为当前页面 */ -}}
+{{- $page := .page | default . -}}
+{{- $variant := .variant | default "mobile" -}}
+{{- $tocTitle := i18n "toc" | default "目录" -}}
+{{- $toc := $page.TableOfContents -}}
+
+{{- if eq $variant "side" -}}
+{{- $tocSide := replace $toc `id="TableOfContents"` `id="TableOfContents-side"` -}}
+<nav class="post-toc post-toc--side" aria-label="{{- $tocTitle -}}">
+  <p class="post-toc__title">{{- $tocTitle -}}</p>
+  <div class="post-toc__body">
+    {{- $tocSide | safeHTML -}}
+  </div>
+</nav>
+{{- else -}}
+<details class="toc toc--mobile" {{ if ($page.Param "TocOpen") }}open{{ end }}>
+  <summary accesskey="c" title="(Alt + C)">
+    <span class="title">{{- $tocTitle -}}</span>
+  </summary>
+  <div class="inner">
+    {{- $toc -}}
+  </div>
+</details>
+{{- end -}}

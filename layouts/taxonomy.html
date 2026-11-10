@@ -16,6 +16,10 @@
   {{- if gt .Count $max }}{{ $max = .Count }}{{ end }}
 {{- end }}
 
+{{- if and .Data.Terms (le $max 1) }}
+<p class="terms-lead">按主题浏览文章；词条会随写作积累逐渐丰富。</p>
+{{- end }}
+
 <ul class="terms-tags">
     {{- $type := .Type }}
     {{- range .Data.Terms.ByCount }}
@@ -31,7 +35,9 @@
         <li>
             <a href="{{ .Permalink }}" style="--tag-scale: {{ $weight }}">
                 <span class="term-name">{{ .LinkTitle }}</span>
+                {{- if gt $max 1 }}
                 <span class="term-count">{{ $count }}</span>
+                {{- end }}
             </a>
         </li>
         {{- end }}

@@ -13,6 +13,10 @@
 
 <section class="search-assist" aria-label="浏览入口">
     {{- with site.Taxonomies.tags }}
+    {{- $tagMax := 1 }}
+    {{- range .ByCount }}
+      {{- if gt .Count $tagMax }}{{ $tagMax = .Count }}{{ end }}
+    {{- end }}
     <div class="search-assist-block">
         <h2>热门标签</h2>
         <ul class="terms-tags">
@@ -20,7 +24,9 @@
             <li>
                 <a href="{{ .Page.RelPermalink }}">
                     <span class="term-name">{{ .Page.LinkTitle }}</span>
+                    {{- if gt $tagMax 1 }}
                     <span class="term-count">{{ .Count }}</span>
+                    {{- end }}
                 </a>
             </li>
             {{- end }}
@@ -32,6 +38,7 @@
         <h2>最近文章</h2>
         <ul class="search-recent">
             {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+            {{- $pages = where $pages "Params.hiddenInHomeList" "ne" true }}
             {{- range first 5 $pages }}
             <li>
                 <a href="{{ .RelPermalink }}">{{ .Title }}</a>

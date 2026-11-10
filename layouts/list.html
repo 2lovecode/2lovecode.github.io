@@ -83,20 +83,6 @@
       {{- end }}
     </h2>
   </header>
-  {{- if not ($page.Param "hideMeta") }}
-  <footer class="entry-footer">
-    {{- partial "post_meta.html" $page -}}
-    {{- with $page.GetTerms "tags" }}
-      <span class="entry-sep" aria-hidden="true">·</span>
-      <span class="entry-tags">
-        {{- range $i, $t := . -}}
-          {{- if $i }} · {{ end -}}
-          <a href="{{ $t.RelPermalink }}" onclick="event.stopPropagation()">{{ $t.LinkTitle }}</a>
-        {{- end -}}
-      </span>
-    {{- end }}
-  </footer>
-  {{- end }}
   {{- if and (ne ($page.Param "hideSummary") true) $page.Description }}
     {{- $titlePlain := $page.Title | plainify }}
     {{- $descPlain := $page.Description | plainify }}
@@ -105,6 +91,11 @@
     <p>{{ $descPlain | truncate 72 }}</p>
   </div>
     {{- end }}
+  {{- end }}
+  {{- if not ($page.Param "hideMeta") }}
+  <footer class="entry-footer">
+    {{- partial "post_meta.html" $page -}}
+  </footer>
   {{- end }}
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>

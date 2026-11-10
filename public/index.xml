@@ -2,31 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>字母狂想</title>
-    <link>http://localhost:60839/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on 字母狂想</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 01 Jul 2025 10:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:60839/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Nov 2026 11:41:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>转载示例：如何阅读技术文档</title>
-      <link>http://localhost:60839/posts/repost-example/</link>
-      <pubDate>Tue, 01 Jul 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:60839/posts/repost-example/</guid>
-      <description>怎样更有效地阅读技术文档，建立自己的知识索引。</description>
-    </item>
-    <item>
-      <title>LLM在垂类搜索中的应用探索</title>
-      <link>http://localhost:60839/posts/llm-vertical-search/</link>
-      <pubDate>Wed, 25 Jun 2025 09:38:08 +0800</pubDate>
-      <guid>http://localhost:60839/posts/llm-vertical-search/</guid>
-      <description>从联想词、检索到推荐，梳理 LLM 进入垂类搜索链路时的切入点与边界。</description>
+      <title>114w 消息积压引发的思考</title>
+      <link>http://localhost:1313/posts/114w-mq-backlog-observability/</link>
+      <pubDate>Tue, 10 Nov 2026 11:41:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/114w-mq-backlog-observability/</guid>
+      <description>可观测能力缺失的代价</description>
     </item>
     <item>
       <title>关于</title>
-      <link>http://localhost:60839/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60839/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>关于字母狂想</description>
     </item>
   </channel>

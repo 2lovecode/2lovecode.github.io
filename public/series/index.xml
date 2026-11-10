@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>系列 on 字母狂想</title>
-    <link>http://localhost:60839/series/</link>
+    <link>http://localhost:1313/series/</link>
     <description>Recent content in 系列 on 字母狂想</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 01 Jul 2025 10:00:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:60839/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Nov 2026 11:41:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>写作与笔记</title>
-      <link>http://localhost:60839/series/%E5%86%99%E4%BD%9C%E4%B8%8E%E7%AC%94%E8%AE%B0/</link>
-      <pubDate>Tue, 01 Jul 2025 10:00:00 +0800</pubDate>
-      <guid>http://localhost:60839/series/%E5%86%99%E4%BD%9C%E4%B8%8E%E7%AC%94%E8%AE%B0/</guid>
+      <title>复盘</title>
+      <link>http://localhost:1313/series/%E5%A4%8D%E7%9B%98/</link>
+      <pubDate>Tue, 10 Nov 2026 11:41:00 +0800</pubDate>
+      <guid>http://localhost:1313/series/%E5%A4%8D%E7%9B%98/</guid>
       <description></description>
     </item>
   </channel>
